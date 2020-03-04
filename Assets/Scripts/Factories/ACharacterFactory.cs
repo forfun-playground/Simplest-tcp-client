@@ -1,8 +1,8 @@
-﻿using Meta;
-using Misc;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace Factories
+namespace ForFun.Playground.SimpleTcpClient.Factories
 {
     public abstract class ACharacterFactory : ScriptableObject
     {

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Misc
+namespace ForFun.Playground.SimpleTcpClient.Misc
 {
     public abstract class ButtonActionBase : MonoBehaviour
     {

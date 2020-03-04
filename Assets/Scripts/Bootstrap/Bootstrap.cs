@@ -1,8 +1,8 @@
-﻿using Managers;
-using UI;
+﻿using ForFun.Playground.SimpleTcpClient.Managers;
+using ForFun.Playground.SimpleTcpClient.UI;
 using UnityEngine;
 
-namespace Bootstrap
+namespace ForFun.Playground.SimpleTcpClient.Bootstrap
 {
     public class Bootstrap : MonoBehaviour
     {

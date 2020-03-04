@@ -1,8 +1,8 @@
-﻿using forfun.sandbox.uwns.util.pack.flat;
-using Meta;
-using Pipeline;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
+using forfun.sandbox.uwns.util.pack.flat;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class FlatbufResponseEnterWorld : InboundMessageHandlerBase<Packet, Metadata>
     {

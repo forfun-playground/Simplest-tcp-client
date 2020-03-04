@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Managers
+namespace ForFun.Playground.SimpleTcpClient.Managers
 {
     public class ActionHub : MonoBehaviour { }
 }

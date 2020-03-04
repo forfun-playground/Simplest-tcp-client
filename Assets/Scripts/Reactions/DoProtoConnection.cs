@@ -1,12 +1,12 @@
-﻿using Events;
-using Forfun.Sandbox.Uwns.Client.Sheme.Proto;
-using Handlers;
-using Meta;
-using Misc;
-using Pipeline;
+﻿using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Handlers;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Misc;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
+using ForFun.Playground.SimpleTcpClient.Scheme.Proto;
 using UnityEngine;
 
-namespace Reactions
+namespace ForFun.Playground.SimpleTcpClient.Reactions
 {
     public class DoProtoConnection : GameEventAction<ChannelPacktype.Pack>
     {

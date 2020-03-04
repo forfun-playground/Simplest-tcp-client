@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Pipeline
+namespace ForFun.Playground.SimpleTcpClient.Pipeline
 {
     public class InboundTemplateBase<TMetadata, TMessage> : IInboundTemplate<TMetadata>
     {

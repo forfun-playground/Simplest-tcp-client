@@ -1,8 +1,8 @@
-﻿using Events;
-using Meta;
+﻿using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Meta;
 using UnityEngine;
 
-namespace Behaviours
+namespace ForFun.Playground.SimpleTcpClient.Behaviours
 {
     public class CameraController : MonoBehaviour
     {

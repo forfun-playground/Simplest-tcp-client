@@ -1,7 +1,7 @@
 ﻿using FlatBuffers;
-using Pipeline;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class FlatbufEncoder : IOutboundMessageEncoder<FlatBufferBuilder>
     {

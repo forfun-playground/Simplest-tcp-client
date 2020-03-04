@@ -1,7 +1,7 @@
-﻿using Meta;
-using Pipeline;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class ChannelState
     {

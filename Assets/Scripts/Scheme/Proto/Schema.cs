@@ -6,8 +6,8 @@
 using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
-using scg = global::System.Collections.Generic;
-namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
+
+namespace ForFun.Playground.SimpleTcpClient.Scheme.Proto {
 
   /// <summary>Holder for reflection information generated from schema.proto</summary>
   public static partial class SchemaReflection {
@@ -41,13 +41,13 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Message), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Message.Parser, new[]{ "EnterWorldResponse", "TargetPositionRequest", "SnapshotResponse" }, new[]{ "Request" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector.Parser, new[]{ "X", "Y" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor.Parser, new[]{ "Uid", "Active", "Position" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent.Parser, new[]{ "Uid", "TargetId", "Active", "Position", "Velocity" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.EnterWorldResponse), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.EnterWorldResponse.Parser, new[]{ "Uid" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.TargetPositionRequest), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.TargetPositionRequest.Parser, new[]{ "Position" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SnapshotResponse), global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SnapshotResponse.Parser, new[]{ "Radius", "Targets", "Players", "NonPlayers" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Message), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Message.Parser, new[]{ "EnterWorldResponse", "TargetPositionRequest", "SnapshotResponse" }, new[]{ "Request" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector.Parser, new[]{ "X", "Y" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor.Parser, new[]{ "Uid", "Active", "Position" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent.Parser, new[]{ "Uid", "TargetId", "Active", "Position", "Velocity" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.EnterWorldResponse), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.EnterWorldResponse.Parser, new[]{ "Uid" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.TargetPositionRequest), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.TargetPositionRequest.Parser, new[]{ "Position" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SnapshotResponse), global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SnapshotResponse.Parser, new[]{ "Radius", "Targets", "Players", "NonPlayers" }, null, null, null)
           }));
     }
     #endregion
@@ -61,7 +61,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[0]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -100,8 +100,8 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
     /// <summary>Field number for the "enter_world_response" field.</summary>
     public const int EnterWorldResponseFieldNumber = 105;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.EnterWorldResponse EnterWorldResponse {
-      get { return requestCase_ == RequestOneofCase.EnterWorldResponse ? (global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.EnterWorldResponse) request_ : null; }
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.EnterWorldResponse EnterWorldResponse {
+      get { return requestCase_ == RequestOneofCase.EnterWorldResponse ? (global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.EnterWorldResponse) request_ : null; }
       set {
         request_ = value;
         requestCase_ = value == null ? RequestOneofCase.None : RequestOneofCase.EnterWorldResponse;
@@ -111,8 +111,8 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
     /// <summary>Field number for the "target_position_request" field.</summary>
     public const int TargetPositionRequestFieldNumber = 110;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.TargetPositionRequest TargetPositionRequest {
-      get { return requestCase_ == RequestOneofCase.TargetPositionRequest ? (global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.TargetPositionRequest) request_ : null; }
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.TargetPositionRequest TargetPositionRequest {
+      get { return requestCase_ == RequestOneofCase.TargetPositionRequest ? (global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.TargetPositionRequest) request_ : null; }
       set {
         request_ = value;
         requestCase_ = value == null ? RequestOneofCase.None : RequestOneofCase.TargetPositionRequest;
@@ -122,8 +122,8 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
     /// <summary>Field number for the "snapshot_response" field.</summary>
     public const int SnapshotResponseFieldNumber = 115;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SnapshotResponse SnapshotResponse {
-      get { return requestCase_ == RequestOneofCase.SnapshotResponse ? (global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SnapshotResponse) request_ : null; }
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SnapshotResponse SnapshotResponse {
+      get { return requestCase_ == RequestOneofCase.SnapshotResponse ? (global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SnapshotResponse) request_ : null; }
       set {
         request_ = value;
         requestCase_ = value == null ? RequestOneofCase.None : RequestOneofCase.SnapshotResponse;
@@ -244,7 +244,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
             input.SkipLastField();
             break;
           case 842: {
-            global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.EnterWorldResponse subBuilder = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.EnterWorldResponse();
+            global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.EnterWorldResponse subBuilder = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.EnterWorldResponse();
             if (requestCase_ == RequestOneofCase.EnterWorldResponse) {
               subBuilder.MergeFrom(EnterWorldResponse);
             }
@@ -253,7 +253,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
             break;
           }
           case 882: {
-            global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.TargetPositionRequest subBuilder = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.TargetPositionRequest();
+            global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.TargetPositionRequest subBuilder = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.TargetPositionRequest();
             if (requestCase_ == RequestOneofCase.TargetPositionRequest) {
               subBuilder.MergeFrom(TargetPositionRequest);
             }
@@ -262,7 +262,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
             break;
           }
           case 922: {
-            global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SnapshotResponse subBuilder = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SnapshotResponse();
+            global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SnapshotResponse subBuilder = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SnapshotResponse();
             if (requestCase_ == RequestOneofCase.SnapshotResponse) {
               subBuilder.MergeFrom(SnapshotResponse);
             }
@@ -283,7 +283,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[1]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -428,7 +428,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[2]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -479,9 +479,9 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     /// <summary>Field number for the "position" field.</summary>
     public const int PositionFieldNumber = 3;
-    private global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector position_;
+    private global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector position_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector Position {
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector Position {
       get { return position_; }
       set {
         position_ = value;
@@ -565,7 +565,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
       }
       if (other.position_ != null) {
         if (position_ == null) {
-          position_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+          position_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
         }
         Position.MergeFrom(other.Position);
       }
@@ -589,7 +589,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
           }
           case 26: {
             if (position_ == null) {
-              position_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+              position_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
             }
             input.ReadMessage(position_);
             break;
@@ -607,7 +607,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[3]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -671,9 +671,9 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     /// <summary>Field number for the "position" field.</summary>
     public const int PositionFieldNumber = 4;
-    private global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector position_;
+    private global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector position_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector Position {
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector Position {
       get { return position_; }
       set {
         position_ = value;
@@ -682,9 +682,9 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     /// <summary>Field number for the "velocity" field.</summary>
     public const int VelocityFieldNumber = 5;
-    private global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector velocity_;
+    private global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector velocity_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector Velocity {
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector Velocity {
       get { return velocity_; }
       set {
         velocity_ = value;
@@ -789,13 +789,13 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
       }
       if (other.position_ != null) {
         if (position_ == null) {
-          position_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+          position_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
         }
         Position.MergeFrom(other.Position);
       }
       if (other.velocity_ != null) {
         if (velocity_ == null) {
-          velocity_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+          velocity_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
         }
         Velocity.MergeFrom(other.Velocity);
       }
@@ -823,14 +823,14 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
           }
           case 34: {
             if (position_ == null) {
-              position_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+              position_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
             }
             input.ReadMessage(position_);
             break;
           }
           case 42: {
             if (velocity_ == null) {
-              velocity_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+              velocity_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
             }
             input.ReadMessage(velocity_);
             break;
@@ -848,7 +848,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[4]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -965,7 +965,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[5]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -992,9 +992,9 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     /// <summary>Field number for the "position" field.</summary>
     public const int PositionFieldNumber = 1;
-    private global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector position_;
+    private global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector position_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector Position {
+    public global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector Position {
       get { return position_; }
       set {
         position_ = value;
@@ -1054,7 +1054,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
       }
       if (other.position_ != null) {
         if (position_ == null) {
-          position_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+          position_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
         }
         Position.MergeFrom(other.Position);
       }
@@ -1070,7 +1070,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
             break;
           case 10: {
             if (position_ == null) {
-              position_ = new global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Vector();
+              position_ = new global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Vector();
             }
             input.ReadMessage(position_);
             break;
@@ -1088,7 +1088,7 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.SchemaReflection.Descriptor.MessageTypes[6]; }
+      get { return global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.SchemaReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1129,31 +1129,31 @@ namespace Forfun.Sandbox.Uwns.Client.Sheme.Proto {
 
     /// <summary>Field number for the "targets" field.</summary>
     public const int TargetsFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor> _repeated_targets_codec
-        = pb::FieldCodec.ForMessage(18, global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor.Parser);
-    private readonly pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor> targets_ = new pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor>();
+    private static readonly pb::FieldCodec<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor> _repeated_targets_codec
+        = pb::FieldCodec.ForMessage(18, global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor.Parser);
+    private readonly pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor> targets_ = new pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Actor> Targets {
+    public pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Actor> Targets {
       get { return targets_; }
     }
 
     /// <summary>Field number for the "players" field.</summary>
     public const int PlayersFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent> _repeated_players_codec
-        = pb::FieldCodec.ForMessage(26, global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent.Parser);
-    private readonly pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent> players_ = new pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent>();
+    private static readonly pb::FieldCodec<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent> _repeated_players_codec
+        = pb::FieldCodec.ForMessage(26, global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent.Parser);
+    private readonly pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent> players_ = new pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent> Players {
+    public pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent> Players {
       get { return players_; }
     }
 
     /// <summary>Field number for the "non_players" field.</summary>
     public const int NonPlayersFieldNumber = 4;
-    private static readonly pb::FieldCodec<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent> _repeated_nonPlayers_codec
-        = pb::FieldCodec.ForMessage(34, global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent.Parser);
-    private readonly pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent> nonPlayers_ = new pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent>();
+    private static readonly pb::FieldCodec<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent> _repeated_nonPlayers_codec
+        = pb::FieldCodec.ForMessage(34, global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent.Parser);
+    private readonly pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent> nonPlayers_ = new pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Forfun.Sandbox.Uwns.Client.Sheme.Proto.Agent> NonPlayers {
+    public pbc::RepeatedField<global::ForFun.Playground.SimpleTcpClient.Scheme.Proto.Agent> NonPlayers {
       get { return nonPlayers_; }
     }
 

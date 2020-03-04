@@ -1,8 +1,8 @@
 ﻿using FlatBuffers;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 using forfun.sandbox.uwns.util.pack.flat;
-using Pipeline;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class FlatbufDecoder : IInboundMessageDecoder<Packet>
     {

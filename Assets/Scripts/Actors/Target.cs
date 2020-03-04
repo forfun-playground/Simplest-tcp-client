@@ -1,8 +1,8 @@
-﻿using Meta;
-using Misc;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace Actors
+namespace ForFun.Playground.SimpleTcpClient.Actors
 {
     public class Target : CharacterBase
     {

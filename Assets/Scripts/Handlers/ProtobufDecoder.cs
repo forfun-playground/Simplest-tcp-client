@@ -1,7 +1,7 @@
-﻿using Forfun.Sandbox.Uwns.Client.Sheme.Proto;
-using Pipeline;
+﻿using ForFun.Playground.SimpleTcpClient.Pipeline;
+using ForFun.Playground.SimpleTcpClient.Scheme.Proto;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class ProtobufDecoder : IInboundMessageDecoder<Message>
     {

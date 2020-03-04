@@ -1,7 +1,7 @@
-﻿using Meta;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
 using UnityEngine;
 
-namespace Misc
+namespace ForFun.Playground.SimpleTcpClient.Misc
 {
 
     public enum CharacterType { None, Self, Player, NonPlayer }

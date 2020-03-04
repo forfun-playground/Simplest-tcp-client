@@ -1,10 +1,10 @@
 ﻿using System;
-using Actors;
-using Meta;
-using Misc;
+using ForFun.Playground.SimpleTcpClient.Actors;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace Factories
+namespace ForFun.Playground.SimpleTcpClient.Factories
 {
     [CreateAssetMenu(fileName = "CharacterFactory", menuName = "Factories/CharacterFactory", order = 50)]
     public class CharacterFactory : ACharacterFactory

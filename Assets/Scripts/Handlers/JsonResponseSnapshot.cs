@@ -1,9 +1,9 @@
-﻿using forfun.sandbox.uwns.util.pack.json;
-using Meta;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
+using ForFun.Playground.SimpleTcpClient.Scheme.Json;
 using Newtonsoft.Json;
-using Pipeline;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class JsonResponseSnapshot : InboundMessageHandlerBase<Packet, Metadata>
     {

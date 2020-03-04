@@ -1,7 +1,7 @@
-﻿using Events;
+﻿using ForFun.Playground.SimpleTcpClient.Events;
 using UnityEngine;
 
-namespace UI
+namespace ForFun.Playground.SimpleTcpClient.UI
 {
     public class LaunchPanel : MonoBehaviour { 
 

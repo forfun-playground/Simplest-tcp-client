@@ -1,4 +1,4 @@
-﻿namespace Meta
+﻿namespace ForFun.Playground.SimpleTcpClient.Meta
 {
     public class EnterWorld : Metadata
     {

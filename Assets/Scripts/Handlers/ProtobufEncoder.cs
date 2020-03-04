@@ -1,8 +1,8 @@
-﻿using Forfun.Sandbox.Uwns.Client.Sheme.Proto;
+﻿using ForFun.Playground.SimpleTcpClient.Pipeline;
+using ForFun.Playground.SimpleTcpClient.Scheme.Proto;
 using Google.Protobuf;
-using Pipeline;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class ProtobufEncoder : IOutboundMessageEncoder<Message>
     {

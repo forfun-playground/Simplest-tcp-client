@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Misc
+namespace ForFun.Playground.SimpleTcpClient.Misc
 {
     public abstract class GameEventAction<TArgs> : MonoBehaviour
     {

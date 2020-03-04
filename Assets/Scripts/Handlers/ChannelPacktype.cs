@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class ChannelPacktype
     {

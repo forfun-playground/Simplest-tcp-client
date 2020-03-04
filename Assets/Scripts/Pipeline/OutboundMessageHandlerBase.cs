@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pipeline
+namespace ForFun.Playground.SimpleTcpClient.Pipeline
 {
     public abstract class OutboundMessageHandlerBase<TMessage, TMetadata> : IOutboundMessageHandler<TMessage, TMetadata>
     {

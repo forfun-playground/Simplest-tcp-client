@@ -1,4 +1,4 @@
-﻿namespace Pipeline
+﻿namespace ForFun.Playground.SimpleTcpClient.Pipeline
 {
     public interface IInboundTemplate<out TMetadata>
     {

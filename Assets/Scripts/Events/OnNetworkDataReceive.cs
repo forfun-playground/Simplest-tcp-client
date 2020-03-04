@@ -1,7 +1,7 @@
-﻿using Misc;
+﻿using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace Events
+namespace ForFun.Playground.SimpleTcpClient.Events
 {
     [CreateAssetMenu(fileName = "OnNetworkDataReceive", menuName = "Events/OnNetworkDataReceive", order = 50)]
     public class OnNetworkDataReceive : GameEvent<OnNetworkDataReceive.Args>

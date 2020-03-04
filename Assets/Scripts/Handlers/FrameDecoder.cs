@@ -1,7 +1,7 @@
 ﻿using System;
-using Pipeline;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class FrameDecoder : IInboundFrameDecoder
     {

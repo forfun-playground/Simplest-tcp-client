@@ -1,11 +1,11 @@
 ﻿using System.Collections;
-using Events;
-using Handlers;
-using Meta;
-using Pipeline;
+using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Handlers;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 using UnityEngine;
 
-namespace Managers
+namespace ForFun.Playground.SimpleTcpClient.Managers
 {
     public class MetaTranslator : MonoBehaviour
     {

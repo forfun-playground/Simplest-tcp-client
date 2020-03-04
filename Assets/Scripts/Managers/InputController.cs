@@ -1,8 +1,8 @@
-﻿using Events;
-using Meta;
+﻿using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Meta;
 using UnityEngine;
 
-namespace Managers
+namespace ForFun.Playground.SimpleTcpClient.Managers
 {
     public class InputController : MonoBehaviour
     {

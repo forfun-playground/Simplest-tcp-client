@@ -1,8 +1,7 @@
-﻿using System;
-using Misc;
+﻿using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace Events
+namespace ForFun.Playground.SimpleTcpClient.Events
 {
     [CreateAssetMenu(fileName = "OnNetworkConnectedError", menuName = "Events/OnNetworkConnectedError", order = 50)]
     public class OnNetworkConnectedError : GameEvent<OnNetworkConnectedError.Args>

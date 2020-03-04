@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Meta
+namespace ForFun.Playground.SimpleTcpClient.Meta
 {
     public class TargetPosition : Metadata
     {

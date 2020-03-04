@@ -1,6 +1,6 @@
 using System;
 
-namespace forfun.sandbox.uwns.util.pack.json
+namespace ForFun.Playground.SimpleTcpClient.Scheme.Json
 {
     public class Packet
     {

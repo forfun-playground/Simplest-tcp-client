@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 using forfun.sandbox.uwns.util.pack.flat;
-using Meta;
-using Pipeline;
 using UnityEngine;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class FlatbufResponseSnapshot : InboundMessageHandlerBase<Packet, Metadata>
     {

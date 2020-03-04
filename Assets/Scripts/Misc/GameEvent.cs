@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Misc
+namespace ForFun.Playground.SimpleTcpClient.Misc
 {
     public delegate void OnGameEvent<in TArgs>(TArgs args);
 

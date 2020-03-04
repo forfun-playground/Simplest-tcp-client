@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Forfun.Sandbox.Uwns.Client.Sheme.Proto;
-using Meta;
-using Pipeline;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
+using ForFun.Playground.SimpleTcpClient.Scheme.Proto;
 using UnityEngine;
 
-namespace Handlers
+namespace ForFun.Playground.SimpleTcpClient.Handlers
 {
     public class ProtobufResponseSnapshot : InboundMessageHandlerBase<Message, Metadata>
     {

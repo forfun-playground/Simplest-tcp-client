@@ -3,10 +3,10 @@ using System.Collections;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
-using Events;
+using ForFun.Playground.SimpleTcpClient.Events;
 using UnityEngine;
 
-namespace Managers
+namespace ForFun.Playground.SimpleTcpClient.Managers
 {
     public class NetworkClient : MonoBehaviour
     {

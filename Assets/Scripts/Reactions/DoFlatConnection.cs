@@ -1,13 +1,13 @@
-﻿using Events;
-using FlatBuffers;
+﻿using FlatBuffers;
+using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Handlers;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Misc;
+using ForFun.Playground.SimpleTcpClient.Pipeline;
 using forfun.sandbox.uwns.util.pack.flat;
-using Handlers;
-using Meta;
-using Misc;
-using Pipeline;
 using UnityEngine;
 
-namespace Reactions
+namespace ForFun.Playground.SimpleTcpClient.Reactions
 {
     public class DoFlatConnection : GameEventAction<ChannelPacktype.Pack>
     {

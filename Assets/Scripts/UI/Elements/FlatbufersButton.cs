@@ -1,9 +1,9 @@
-﻿using Events;
-using Handlers;
-using Misc;
+﻿using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Handlers;
+using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace UI.Elements
+namespace ForFun.Playground.SimpleTcpClient.UI.Elements
 {
     public class FlatbufersButton : ButtonActionBase
     {

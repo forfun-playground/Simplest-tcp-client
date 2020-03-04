@@ -1,7 +1,7 @@
-﻿using Misc;
+﻿using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace References
+namespace ForFun.Playground.SimpleTcpClient.References
 {
     [CreateAssetMenu(fileName = "SelfUidInt", menuName = "References/SelfUidInt", order = 50)]
     public class SelfUidInt : ReferenceInt { }

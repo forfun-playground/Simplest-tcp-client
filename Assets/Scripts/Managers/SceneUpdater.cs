@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Events;
-using Factories;
-using Meta;
-using Misc;
+using ForFun.Playground.SimpleTcpClient.Events;
+using ForFun.Playground.SimpleTcpClient.Factories;
+using ForFun.Playground.SimpleTcpClient.Meta;
+using ForFun.Playground.SimpleTcpClient.Misc;
 using UnityEngine;
 
-namespace Managers
+namespace ForFun.Playground.SimpleTcpClient.Managers
 {
     public class SceneUpdater : MonoBehaviour
     {

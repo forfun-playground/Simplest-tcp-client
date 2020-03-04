@@ -1,6 +1,6 @@
-﻿using Meta;
+﻿using ForFun.Playground.SimpleTcpClient.Meta;
 
-namespace Misc
+namespace ForFun.Playground.SimpleTcpClient.Misc
 {
     public interface ICharacter
     {

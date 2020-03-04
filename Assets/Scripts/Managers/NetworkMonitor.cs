@@ -1,9 +1,8 @@
 ﻿using System;
-using Events;
-using Forfun.Sandbox.Uwns.Client;
+using ForFun.Playground.SimpleTcpClient.Events;
 using UnityEngine;
 
-namespace Managers
+namespace ForFun.Playground.SimpleTcpClient.Managers
 {
     public class NetworkMonitor : MonoBehaviour
     {
