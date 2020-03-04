@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8404190138663678408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5180812001902885745}
+  - component: {fileID: -7064668013138653576}
+  - component: {fileID: 4577952626298059428}
+  - component: {fileID: -1448232627203738063}
+  - component: {fileID: -3207031474468824215}
+  m_Layer: 0
+  m_Name: ActionHub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5180812001902885745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404190138663678408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7064668013138653576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404190138663678408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ace7aab0d6cf84f977eef3c93f9be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4577952626298059428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404190138663678408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5551441a4b349f4887747b500fc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onBeginConnection: {fileID: 11400000, guid: e6372da9e53543a4f9ea9421f8337787, type: 2}
+  onNetworkConnect: {fileID: 11400000, guid: a69c08a3b6bde494590f5166e583687f, type: 2}
+--- !u!114 &-1448232627203738063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404190138663678408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ada31d4a9d86a441800ed88478c2396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onBeginConnection: {fileID: 11400000, guid: e6372da9e53543a4f9ea9421f8337787, type: 2}
+  onNetworkConnect: {fileID: 11400000, guid: a69c08a3b6bde494590f5166e583687f, type: 2}
+--- !u!114 &-3207031474468824215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8404190138663678408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df7ac94dffe43a4fb9c69595ad1b612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onBeginConnection: {fileID: 11400000, guid: e6372da9e53543a4f9ea9421f8337787, type: 2}
+  onNetworkConnect: {fileID: 11400000, guid: a69c08a3b6bde494590f5166e583687f, type: 2}

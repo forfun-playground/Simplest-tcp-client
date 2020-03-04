@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7344827139898125724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396409253064974135}
+  - component: {fileID: 4457472421812858855}
+  m_Layer: 0
+  m_Name: NetworkClient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396409253064974135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344827139898125724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4457472421812858855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344827139898125724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9ec4053f1dd6b41b43db488fd242a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNetworkConnect: {fileID: 11400000, guid: a69c08a3b6bde494590f5166e583687f, type: 2}
+  onNetworkConnected: {fileID: 11400000, guid: a2c78d9f37ab18942a7405b8a08d38c6, type: 2}
+  onNetworkConnectedError: {fileID: 11400000, guid: ea078177a78fc694391f8873ca72d64e,
+    type: 2}
+  onNetworkDisconnect: {fileID: 11400000, guid: 9547605989e2ea14896462c9df779f28,
+    type: 2}
+  onNetworkDisconnected: {fileID: 11400000, guid: 086dc22099f08d7459b7ec941af70988,
+    type: 2}
+  onNetworkDataReceive: {fileID: 11400000, guid: e25384aac5e08c14383f939bff50f3eb,
+    type: 2}
+  onNetworkDataSend: {fileID: 11400000, guid: 4eca074ea265a2b4f8522c8e6538c6c6, type: 2}
+  ipAddress: 127.0.0.1
+  port: 7777

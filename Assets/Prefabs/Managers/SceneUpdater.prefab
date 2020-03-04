@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2547657099861899091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5271786286022634759}
+  - component: {fileID: 6143541465102087229}
+  m_Layer: 0
+  m_Name: SceneUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5271786286022634759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547657099861899091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6143541465102087229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547657099861899091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c373a3ceba1564e85b3945119168b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selfId: {fileID: 11400000, guid: 1d0cb8b9f80cef5498e1d79f8fe316bd, type: 2}
+  characterFactory: {fileID: 11400000, guid: 1b30f105e55fc2f4db9d306e83209cbf, type: 2}
+  onMetaDataReceive: {fileID: 11400000, guid: 7fdd650122cb47d48b6b94cd3aa4b615, type: 2}
+  onNetworkDisconnected: {fileID: 11400000, guid: 086dc22099f08d7459b7ec941af70988,
+    type: 2}
